@@ -1,10 +1,18 @@
 # Table of contents
 
 * [README](README.md)
+* [Design Pattern](design-pattern.md)
 
 ## Python
 
-* [Page 1](python/page-1.md)
+* [Tutorial](python/tutorial/README.md)
+  * [Page 1](python/tutorial/page-1.md)
+  * [Immutable and mutable](python/tutorial/immutable-and-mutable.md)
+* [Django](python/django.md)
+* [Flask](python/flask.md)
+* [FastAPI](python/fastapi/README.md)
+  * [Optional Depencies](python/fastapi/optional-depencies.md)
+  * [Page](python/fastapi/page.md)
 
 ## GoLang
 
