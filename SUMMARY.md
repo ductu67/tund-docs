@@ -12,7 +12,8 @@
 * [Flask](python/flask.md)
 * [FastAPI](python/fastapi/README.md)
   * [Optional Depencies](python/fastapi/optional-depencies.md)
-  * [Page](python/fastapi/page.md)
+  * [Python Types Intro](python/fastapi/python-types-intro.md)
+  * [Concurrency and async / await](python/fastapi/concurrency-and-async-await.md)
 
 ## GoLang
 
@@ -20,7 +21,8 @@
 
 ## Database
 
-* [Page 3](database/page-3.md)
+* [SQL](database/sql.md)
+* [NOSQL](database/nosql.md)
 
 ## Cache
 
