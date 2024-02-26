@@ -26,7 +26,8 @@
 
 ## Cache
 
-* [Memcached](cache/memcached.md)
+* [Caching](cache/caching.md)
+* [Memcached vs Redis](cache/memcached-vs-redis.md)
 
 ## Message queue
 

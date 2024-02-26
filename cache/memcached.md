@@ -1,5 +1,0 @@
-# Memcached
-
-```
-// Some code
-```
