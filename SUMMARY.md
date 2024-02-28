@@ -32,6 +32,7 @@
 ## Message queue
 
 * [Concept and Components](message-queue/concept-and-components.md)
+* [Use in pratice](message-queue/use-in-pratice.md)
 
 ## CICD
 
