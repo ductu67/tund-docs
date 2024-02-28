@@ -6,7 +6,7 @@
 ## Python
 
 * [Tutorial](python/tutorial/README.md)
-  * [Page 1](python/tutorial/page-1.md)
+  * [Iterators](python/tutorial/iterators.md)
   * [Immutable and mutable](python/tutorial/immutable-and-mutable.md)
 * [Django](python/django.md)
 * [Flask](python/flask.md)
@@ -31,7 +31,7 @@
 
 ## Message queue
 
-* [Page 5](message-queue/page-5.md)
+* [Concept and Components](message-queue/concept-and-components.md)
 
 ## CICD
 
