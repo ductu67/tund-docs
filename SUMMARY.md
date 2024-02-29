@@ -37,4 +37,5 @@
 
 ## CICD
 
-* [Page 6](cicd/page-6.md)
+* [CI/CD](cicd/ci-cd.md)
+* [Tool in CI/CD](cicd/tool-in-ci-cd.md)
