@@ -2,18 +2,24 @@
 
 * [README](README.md)
 * [Design Pattern](design-pattern.md)
+* [Learn to live in Terminal](learn-to-live-in-terminal/README.md)
+  * [Process Monitoring](learn-to-live-in-terminal/process-monitoring.md)
+  * [Editors](learn-to-live-in-terminal/editors.md)
 
 ## Python
 
+* [Advanced](python/advanced.md)
+* [Testing](python/testing.md)
+* [Framework](python/framework/README.md)
+  * [Django](python/framework/django.md)
+  * [Flask](python/framework/flask.md)
+  * [FastAPI](python/framework/fastapi/README.md)
+    * [Optional Depencies](python/framework/fastapi/optional-depencies.md)
+    * [Python Types Intro](python/framework/fastapi/python-types-intro.md)
+    * [Concurrency and async / await](python/framework/fastapi/concurrency-and-async-await.md)
 * [Tutorial](python/tutorial/README.md)
   * [Iterators](python/tutorial/iterators.md)
   * [Immutable and mutable](python/tutorial/immutable-and-mutable.md)
-* [Django](python/django.md)
-* [Flask](python/flask.md)
-* [FastAPI](python/fastapi/README.md)
-  * [Optional Depencies](python/fastapi/optional-depencies.md)
-  * [Python Types Intro](python/fastapi/python-types-intro.md)
-  * [Concurrency and async / await](python/fastapi/concurrency-and-async-await.md)
 
 ## GoLang
 
