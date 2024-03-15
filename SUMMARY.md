@@ -4,6 +4,7 @@
 * [Design Pattern](design-pattern.md)
 * [Learn to live in Terminal](learn-to-live-in-terminal/README.md)
   * [Process Monitoring](learn-to-live-in-terminal/process-monitoring.md)
+  * [Performance Monitoring](learn-to-live-in-terminal/performance-monitoring.md)
   * [Editors](learn-to-live-in-terminal/editors.md)
 
 ## Python
