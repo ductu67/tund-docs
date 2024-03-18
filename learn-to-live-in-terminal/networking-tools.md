@@ -26,13 +26,7 @@ Các công cụ mạnh mẽ được cung cấp để giúp quản lý và kiể
 10. **curl**: Cung cấp khả năng truy cập và tải xuống tài nguyên từ các máy chủ từ xa, bao gồm cả trang web và API.
 
     Ví dụ: `curl https://example.com`
-11. **wget**: Tương tự như curl, wget cũng được sử dụng để tải xuống tài nguyên từ mạng.
-
-    Ví dụ: `wget https://example.com/file.txt`
-12. **ssh**: Dùng để thiết lập kết nối bảo mật với một máy chủ từ xa để thực hiện các thao tác từ xa.
-
-    Ví dụ: `ssh username@remote_host`
-13. **scp**: Dùng để sao chép tệp từ hoặc đến máy chủ từ xa thông qua SSH.
+11. **scp**: Dùng để sao chép tệp từ hoặc đến máy chủ từ xa thông qua SSH.
 
     Ví dụ: `scp file.txt username@remote_host:/path/to/destination`
 
