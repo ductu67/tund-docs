@@ -3,6 +3,8 @@
 * [README](README.md)
 * [Design Pattern](design-pattern.md)
 * [Learn to live in Terminal](learn-to-live-in-terminal/README.md)
+  * [Text Manipulation](learn-to-live-in-terminal/text-manipulation.md)
+  * [Networking Tools](learn-to-live-in-terminal/networking-tools.md)
   * [Process Monitoring](learn-to-live-in-terminal/process-monitoring.md)
   * [Performance Monitoring](learn-to-live-in-terminal/performance-monitoring.md)
   * [Editors](learn-to-live-in-terminal/editors.md)
