@@ -2,6 +2,9 @@
 
 * [README](README.md)
 * [Design Pattern](design-pattern.md)
+* [Web Server](web-server/README.md)
+  * [Components](web-server/components.md)
+  * [Server](web-server/server.md)
 * [Learn to live in Terminal](learn-to-live-in-terminal/README.md)
   * [Text Manipulation](learn-to-live-in-terminal/text-manipulation.md)
   * [Networking Tools](learn-to-live-in-terminal/networking-tools.md)

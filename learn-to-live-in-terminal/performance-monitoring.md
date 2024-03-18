@@ -1,6 +1,6 @@
 # Performance Monitoring
 
-Trong môi trường dòng lệnh, có một số công cụ mạnh mẽ để giám sát và phân tích hiệu suất hệ thống. Dưới đây là một số công cụ phổ biến để thực hiện việc này:
+Các công cụ để giám sát và phân tích hiệu suất hệ thống.
 
 1.  **vmstat**: Hiển thị các thống kê về sử dụng bộ nhớ, swap, I/O và CPU của hệ thống.
 
