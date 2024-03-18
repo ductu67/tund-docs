@@ -9,6 +9,7 @@
 
 ## Python
 
+* [Case Study](python/case-study.md)
 * [Advanced](python/advanced.md)
 * [Testing](python/testing.md)
 * [Framework](python/framework/README.md)
@@ -24,25 +25,30 @@
 
 ## GoLang
 
+* [Case Study](golang/case-study.md)
 * [Page 2](golang/page-2.md)
 
 ## Database
 
+* [Case Study](database/case-study.md)
 * [SQL](database/sql.md)
 * [NOSQL](database/nosql.md)
 * [SQL and NOSQL](database/sql-and-nosql.md)
 
 ## Cache
 
+* [Case Study](cache/case-study.md)
 * [Caching](cache/caching.md)
 * [Memcached vs Redis](cache/memcached-vs-redis.md)
 
 ## Message queue
 
+* [Case Study](message-queue/case-study.md)
 * [Concept and Components](message-queue/concept-and-components.md)
 * [Use in pratice](message-queue/use-in-pratice.md)
 
 ## CICD
 
+* [Case Study](cicd/case-study.md)
 * [CI/CD](cicd/ci-cd.md)
 * [Tool in CI/CD](cicd/tool-in-ci-cd.md)
