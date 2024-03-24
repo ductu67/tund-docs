@@ -26,6 +26,7 @@
     * [Python Types Intro](python/framework/fastapi/python-types-intro.md)
     * [Concurrency and async / await](python/framework/fastapi/concurrency-and-async-await.md)
 * [Tutorial](python/tutorial/README.md)
+  * [OOP](python/tutorial/oop.md)
   * [Decorators](python/tutorial/decorators.md)
   * [NOTE](python/tutorial/note.md)
   * [Format Code](python/tutorial/format-code.md)
