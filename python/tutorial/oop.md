@@ -13,7 +13,7 @@ description: >-
     * Ví dụ:
 
     ```python
-    pythonCopy codeclass Animal:
+    class Animal:
         def speak(self):
             print("Animal speaks")
 
@@ -31,7 +31,7 @@ description: >-
     * Ví dụ:
 
     ```python
-    pythonCopy codeclass Animal:
+    class Animal:
         def speak(self):
             pass
 
@@ -59,7 +59,7 @@ description: >-
     * Ví dụ:
 
     ```python
-    pythonCopy codeclass Person:
+    class Person:
         def __init__(self, name, age):
             self._name = name
             self._age = age
