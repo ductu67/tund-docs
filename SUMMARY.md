@@ -15,17 +15,22 @@
 ## Python
 
 * [Case Study](python/case-study.md)
-* [Advanced](python/advanced.md)
 * [Testing](python/testing.md)
 * [Framework](python/framework/README.md)
-  * [Django](python/framework/django.md)
+  * [Django](python/framework/django/README.md)
+    * [Basic](python/framework/django/basic.md)
+    * [DRF](python/framework/django/drf.md)
   * [Flask](python/framework/flask.md)
   * [FastAPI](python/framework/fastapi/README.md)
     * [Optional Depencies](python/framework/fastapi/optional-depencies.md)
     * [Python Types Intro](python/framework/fastapi/python-types-intro.md)
     * [Concurrency and async / await](python/framework/fastapi/concurrency-and-async-await.md)
 * [Tutorial](python/tutorial/README.md)
-  * [Iterators](python/tutorial/iterators.md)
+  * [Decorators](python/tutorial/decorators.md)
+  * [NOTE](python/tutorial/note.md)
+  * [Format Code](python/tutorial/format-code.md)
+  * [Global Interpreter Lock (GIL)](python/tutorial/global-interpreter-lock-gil.md)
+  * [Iterators  angenerator](python/tutorial/iterators-angenerator.md)
   * [Immutable and mutable](python/tutorial/immutable-and-mutable.md)
 
 ## GoLang

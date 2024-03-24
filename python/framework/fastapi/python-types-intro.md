@@ -7,6 +7,8 @@ description: >-
 
 # Python Types Intro
 
+Việc sử dụng typing giúp giảm lỗi trong quá trình phát triển, tăng hiệu suất của mã và cải thiện độ dễ đọc và hiểu mã.
+
 Type hints example:
 
 ```python

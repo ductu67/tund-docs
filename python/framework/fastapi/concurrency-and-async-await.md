@@ -7,8 +7,24 @@ Concurrency và `async/await` là hai khái niệm quan trọng trong lập trì
    * Là khả năng thực hiện nhiều tác vụ cùng một lúc.
    * Các tác vụ có thể chạy đồng thời (trong cùng một khoảng thời gian) hoặc có thể chuyển đổi giữa chúng để tận dụng thời gian CPU.
    * Concurrency có thể được thực hiện thông qua việc sử dụng nhiều luồng (threads) hoặc tiến trình (processes) trên hệ điều hành, hoặc thông qua cơ chế bất đồng bộ (async) trong lập trình Python.
-2. **Async/Await (Bất đồng bộ):**
-   * Là một mô hình lập trình cho phép thực hiện các tác vụ mà không làm chặn (block) luồng thực thi chính.
-   * `async` và `await` là từ khoá trong Python để đánh dấu và chờ đợi các hàm hoặc coroutine (hàm bất đồng bộ).
-   * Bất đồng bộ thường được sử dụng để xử lý các tác vụ I/O-bound (như đọc/ghi dữ liệu từ/đến cơ sở dữ liệu) mà không làm gián đoạn luồng chính, giúp tối ưu hóa hiệu suất khi có nhiều yêu cầu cần được xử lý đồng thời.
-   * Có thể sử dụng `asyncio` trong Python để hỗ trợ lập trình bất đồng bộ.
+2.  **Async/Await (Bất đồng bộ):**
+
+    * Là một mô hình lập trình cho phép thực hiện các tác vụ mà không làm chặn (block) luồng thực thi chính.
+    * `async def` và `await` là từ khoá trong Python để đánh dấu và chờ đợi các hàm hoặc coroutine (hàm bất đồng bộ).
+    * Thường được sử dụng để xử lý các tác vụ I/O-bound (như đọc/ghi dữ liệu từ/đến cơ sở dữ liệu) mà không làm gián đoạn luồng chính, giúp tối ưu hóa hiệu suất khi có nhiều yêu cầu cần được xử lý đồng thời.
+    * Có thể sử dụng `asyncio` trong Python để hỗ trợ lập trình bất đồng bộ.
+
+
+
+```python
+import asyncio
+
+async def count():
+    print("One")
+    await asyncio.sleep(1)
+    print("Two")
+
+asyncio.run(count())
+```
+
+Trong ví dụ này, coroutine `count()` in ra "One", sau đó tạm dừng việc thực thi trong 1 giây bằng hàm `asyncio.sleep()`, và sau đó in ra "Two".
