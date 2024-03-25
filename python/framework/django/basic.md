@@ -7,7 +7,7 @@
 
 **Làm thế nào để tạo một custom middleware trong Django?**
 
-* Để tạo một custom middleware trong Django, bạn cần định nghĩa một class kế thừa từ `MiddlewareMixin` và định nghĩa phương thức `__init__` và/hoặc `__call__` để xử lý các request và response.&#x20;
+* Để tạo một custom middleware trong Django, cần định nghĩa một class kế thừa từ `MiddlewareMixin` và định nghĩa phương thức `__init__` và/hoặc `__call__` để xử lý các request và response.&#x20;
 * Middleware có thể thực hiện các công việc như xác thực, ghi log, quản lý session, và nhiều công việc khác.
 
 ```python
@@ -27,7 +27,6 @@ class LogMiddleware(MiddlewareMixin):
         return response
         
 # settings.py
-
 MIDDLEWARE = [
     # Other middleware classes...
     'myapp.middleware.LogMiddleware',
@@ -41,14 +40,16 @@ MIDDLEWARE = [
 
 **Giải thích ý nghĩa của Django's ORM (Object-Relational Mapping) và cách sử dụng nó:**
 
-* ORM trong Django là một lớp trừu tượng hóa dữ liệu cơ sở dữ liệu thành các đối tượng Python, giúp cho việc tương tác với cơ sở dữ liệu trở nên dễ dàng hơn. Bằng cách định nghĩa các models, bạn có thể thực hiện các thao tác CRUD (Create, Read, Update, Delete) trên cơ sở dữ liệu mà không cần viết các câu truy vấn SQL.
+* ORM trong Django là một lớp trừu tượng hóa dữ liệu cơ sở dữ liệu thành các đối tượng Python, giúp cho việc tương tác với cơ sở dữ liệu trở nên dễ dàng hơn.&#x20;
+* Bằng cách định nghĩa các models, bạn có thể thực hiện các thao tác CRUD (Create, Read, Update, Delete) trên cơ sở dữ liệu mà không cần viết các câu truy vấn SQL.
 
 **Làm thế nào để triển khai ứng dụng Django/DRF lên môi trường sản phẩm (production environment)?**
 
-* Để triển khai ứng dụng Django/DRF lên môi trường sản phẩm, bạn cần thiết lập một máy chủ web như Nginx hoặc Apache để phục vụ các yêu cầu HTTP, và sử dụng một WSGI server như Gunicorn hoặc uWSGI để chạy ứng dụng Django/DRF. Bạn cũng cần cấu hình các biến môi trường (environment variables), quản lý static files và media files, và cài đặt một hệ thống log để ghi log cho ứng dụng của bạn.
+* Để triển khai ứng dụng Django/DRF lên môi trường sản phẩm, bạn cần thiết lập một máy chủ web như Nginx hoặc Apache để phục vụ các yêu cầu HTTP, và sử dụng một WSGI server như Gunicorn hoặc uWSGI để chạy ứng dụng Django/DRF.&#x20;
+* Cấu hình các biến môi trường (environment variables), quản lý static files và media files, và cài đặt một hệ thống log để ghi log cho ứng dụng của bạn.
 
 **Làm thế nào để xử lý file uploads trong DRF:**
 
-* Để xử lý file uploads trong DRF, bạn cần sử dụng serializers với trường `FileField` hoặc `ImageField`. DRF sẽ tự động xử lý các yêu cầu POST chứa file uploads và lưu trữ file vào đường dẫn được chỉ định trong settings của bạn. Để tạo endpoints để tải lên và tải xuống files, bạn cần xác định các views và urls tương ứng và sử dụng `FileResponse` để trả về file khi có yêu cầu.
+* Để xử lý file uploads trong DRF, ử dụng serializers với trường `FileField` hoặc `ImageField`. DRF sẽ tự động xử lý các yêu cầu POST chứa file uploads và lưu trữ file vào đường dẫn được chỉ định trong settings của bạn.
 
 \

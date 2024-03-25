@@ -4,7 +4,7 @@ description: https://flask.palletsprojects.com/en/3.0.x/
 
 # Flask
 
-* **Flask** là một micro-framework web Python nhẹ và linh hoạt. Nó cho phép bạn xây dựng các ứng dụng web từ các thành phần cơ bản như routing, templates, và handling requests.
+* **Flask** là một micro-framework web Python nhẹ và linh hoạt. Nó cho phép xây dựng các ứng dụng web từ các thành phần cơ bản như routing, templates, và handling requests.
 * Flask hoạt động bằng cách sử dụng mô hình WSGI (Web Server Gateway Interface), nơi mỗi request từ client được chuyển đến ứng dụng Flask, được xử lý bởi các hàm hoặc classes được gọi là view functions, và sau đó trả về một response.
 * Flask không yêu cầu các dependencies ngoài cơ bản, điều này làm cho nó trở thành một lựa chọn phổ biến cho việc xây dựng các ứng dụng web nhỏ và đơn giản.
 

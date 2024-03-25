@@ -22,17 +22,21 @@
     * [DRF](python/framework/django/drf.md)
   * [Flask](python/framework/flask.md)
   * [FastAPI](python/framework/fastapi/README.md)
-    * [Optional Depencies](python/framework/fastapi/optional-depencies.md)
     * [Python Types Intro](python/framework/fastapi/python-types-intro.md)
     * [Concurrency and async / await](python/framework/fastapi/concurrency-and-async-await.md)
+    * [Performance and Scaling](python/framework/fastapi/performance-and-scaling.md)
+    * [Authentication and Authorization](python/framework/fastapi/authentication-and-authorization.md)
+    * [Validation FastAPI](python/framework/fastapi/validation-fastapi.md)
+    * [Advanced](python/framework/fastapi/advanced.md)
+    * [Routing và Dependency Injection](python/framework/fastapi/routing-va-dependency-injection.md)
 * [Tutorial](python/tutorial/README.md)
   * [OOP](python/tutorial/oop.md)
   * [Decorators](python/tutorial/decorators.md)
-  * [NOTE](python/tutorial/note.md)
   * [Format Code](python/tutorial/format-code.md)
   * [Global Interpreter Lock (GIL)](python/tutorial/global-interpreter-lock-gil.md)
   * [Iterators  angenerator](python/tutorial/iterators-angenerator.md)
   * [Immutable and mutable](python/tutorial/immutable-and-mutable.md)
+  * [NOTE](python/tutorial/note.md)
 
 ## GoLang
 
