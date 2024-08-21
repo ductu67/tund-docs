@@ -14,8 +14,14 @@
 
 ## Python
 
-* [Case Study](python/case-study.md)
-* [Testing](python/testing.md)
+* [Tutorial](python/tutorial/README.md)
+  * [OOP](python/tutorial/oop.md)
+  * [Decorators](python/tutorial/decorators.md)
+  * [Format Code](python/tutorial/format-code.md)
+  * [Global Interpreter Lock (GIL)](python/tutorial/global-interpreter-lock-gil.md)
+  * [Iterators  angenerator](python/tutorial/iterators-angenerator.md)
+  * [Immutable and mutable](python/tutorial/immutable-and-mutable.md)
+  * [NOTE](python/tutorial/note.md)
 * [Framework](python/framework/README.md)
   * [Django](python/framework/django/README.md)
     * [Basic](python/framework/django/basic.md)
@@ -29,41 +35,35 @@
     * [Validation FastAPI](python/framework/fastapi/validation-fastapi.md)
     * [Advanced](python/framework/fastapi/advanced.md)
     * [Routing và Dependency Injection](python/framework/fastapi/routing-va-dependency-injection.md)
-* [Tutorial](python/tutorial/README.md)
-  * [OOP](python/tutorial/oop.md)
-  * [Decorators](python/tutorial/decorators.md)
-  * [Format Code](python/tutorial/format-code.md)
-  * [Global Interpreter Lock (GIL)](python/tutorial/global-interpreter-lock-gil.md)
-  * [Iterators  angenerator](python/tutorial/iterators-angenerator.md)
-  * [Immutable and mutable](python/tutorial/immutable-and-mutable.md)
-  * [NOTE](python/tutorial/note.md)
+* [Testing](python/testing.md)
+* [Case Study](python/case-study.md)
 
 ## GoLang
 
+* [Basic](golang/basic.md)
 * [Case Study](golang/case-study.md)
-* [Page 2](golang/page-2.md)
 
 ## Database
 
-* [Case Study](database/case-study.md)
 * [SQL](database/sql.md)
 * [NOSQL](database/nosql.md)
 * [SQL and NOSQL](database/sql-and-nosql.md)
+* [Case Study](database/case-study.md)
 
 ## Cache
 
-* [Case Study](cache/case-study.md)
-* [Caching](cache/caching.md)
 * [Memcached vs Redis](cache/memcached-vs-redis.md)
+* [Caching Invalidation](cache/caching-invalidation.md)
+* [Case Study](cache/case-study.md)
 
 ## Message queue
 
-* [Case Study](message-queue/case-study.md)
 * [Concept and Components](message-queue/concept-and-components.md)
-* [Use in pratice](message-queue/use-in-pratice.md)
+* [Pratice](message-queue/pratice.md)
+* [Case Study](message-queue/case-study.md)
 
 ## CICD
 
+* [Concept](cicd/concept.md)
+* [Tools](cicd/tools.md)
 * [Case Study](cicd/case-study.md)
-* [CI/CD](cicd/ci-cd.md)
-* [Tool in CI/CD](cicd/tool-in-ci-cd.md)
