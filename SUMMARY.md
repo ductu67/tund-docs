@@ -40,11 +40,12 @@
 
 ## GoLang
 
-* [Basic](golang/basic.md)
+* [Basic](golang/page-2.md)
 * [Case Study](golang/case-study.md)
 
 ## Database
 
+* [Improve Performance](database/improve-performance.md)
 * [SQL](database/sql.md)
 * [NOSQL](database/nosql.md)
 * [SQL and NOSQL](database/sql-and-nosql.md)
@@ -53,17 +54,17 @@
 ## Cache
 
 * [Memcached vs Redis](cache/memcached-vs-redis.md)
-* [Caching Invalidation](cache/caching-invalidation.md)
+* [Caching Invalidation](cache/caching.md)
 * [Case Study](cache/case-study.md)
 
 ## Message queue
 
-* [Concept and Components](message-queue/concept-and-components.md)
-* [Pratice](message-queue/pratice.md)
+* [Concept and Components](message-queue/page-5.md)
+* [Pratice](message-queue/use-in-pratice.md)
 * [Case Study](message-queue/case-study.md)
 
 ## CICD
 
-* [Concept](cicd/concept.md)
-* [Tools](cicd/tools.md)
+* [Concept](cicd/ci-cd.md)
+* [Tools](cicd/tool-in-ci-cd.md)
 * [Case Study](cicd/case-study.md)

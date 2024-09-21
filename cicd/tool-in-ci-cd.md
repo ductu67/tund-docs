@@ -1,4 +1,4 @@
-# Tool in CI/CD
+# Tools
 
 **Jenkins và GitLab CI khác nhau như thế nào trong quá trình CI/CD?"**
 

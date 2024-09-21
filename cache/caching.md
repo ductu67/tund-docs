@@ -5,7 +5,7 @@ description: >-
   truy xuất dữ liệu, và giảm tải cho nguồn dữ liệu.
 ---
 
-# Caching
+# Caching Invalidation
 
 Cache Invalidation là một phần quan trọng trong quản lý cache để đảm bảo tính nhất quán giữa cache và dữ liệu nguồn:
 

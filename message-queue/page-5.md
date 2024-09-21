@@ -1,10 +1,3 @@
----
-description: >-
-  Message queue giải quyết các vấn đề liên quan đến tính bất đồng bộ và tương
-  tác giữa các thành phần trong hệ thống phân tán là một phần quan trọng trong
-  kiến trúc hệ thống microservices.
----
-
 # Concept and Components
 
 **Message queue** là một hộp thư, cho phép các thành phần/service trong một hệ thống (hoặc nhiều hệ thống), gửi thông tin cho nhau.

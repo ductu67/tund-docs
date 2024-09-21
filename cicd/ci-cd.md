@@ -5,7 +5,7 @@ description: >-
   nhất trong quá trình triển khai ứng dụng.
 ---
 
-# CI/CD
+# Concept
 
 1. **Continuous Integration (CI - Tích Hợp Liên Tục):**
    * **Mục Tiêu:** Đảm bảo rằng các phiên bản mới của mã nguồn được tích hợp và kiểm thử một cách tự động và thường xuyên.

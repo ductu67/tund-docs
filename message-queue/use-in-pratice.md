@@ -2,7 +2,7 @@
 description: Message queue giải quyết được rất nhiều vấn đề quan trọng  trong hệ thống.
 ---
 
-# Use in pratice
+# Pratice
 
 Trong các hệ thống dùng kiến trúc microservice, sử dụng message queue để giúp các service liên hệ với nhau **một cách bất đồng bộ**. _Service A_ làm xong việc có thể gửi message queue để _service B_ biết mà xử lý, **không cần phải chờ** service B làm xong.
 
