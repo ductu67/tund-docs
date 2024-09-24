@@ -45,8 +45,10 @@
 
 ## Database
 
+* [Index](database/index.md)
 * [Improve Performance](database/improve-performance.md)
-* [SQL](database/sql.md)
+* [SQL](database/sql/README.md)
+  * [MySQL vs PostgreSQL](database/sql/mysql-vs-postgresql.md)
 * [NOSQL](database/nosql.md)
 * [SQL and NOSQL](database/sql-and-nosql.md)
 * [Case Study](database/case-study.md)
