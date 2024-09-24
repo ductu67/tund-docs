@@ -67,3 +67,38 @@ Mô hình Oracle RAC:  Sử dụng 2 máy chủ -  bộ nhớ chung --> không b
 
 ### Vì sao Index giúp tăng tốc Query
 
+* Index tạo ra 1 table nhỏ để dung lượng nhỏ để query. Ví dụ 1 bảng chỉ có tên cho user
+
+### Index có hiệu quả không nếu nhiều dữ liệu thỏa mãn điều kiện WHERE?
+
+* Thì sử dụng quét full bảng để nhanh hơn index. Do khi quét index các record nằm ở nhiều page khác nhau nên sẽ dẫn đến việc truy xuất lâu hơn
+
+### Hiệu quả Index đối với câu lệnh làm việc trên nhiều cột
+
+* Với câu lệnh Where A=1 and B=2 and C=3 | Where B=2 and A=1 and C=3 ==> không khác nhau, không ảnh hưởng.
+* Với Index(A,B,C) != Index(A,B,C) != Index(B,C,A)
+
+### Thứ tự cột trong Index ảnh hưởng hiệu năng ra sao?
+
+* Index - A, -B, -C --> Index mổ cò
+* Index tổ hợp các cột: Index (Name, ity) != (City, Name)  ===> Danh sách trả ra khác nhau nên sẽ khác nhau
+
+### Lưu ý - hiểu lầm về FULL TABLE SCAN
+
+* VD: Select \* from users Where downvotes > 0 -- Cost = 12.000
+* VD: Select \* from users Where downvotes > 0 fetch first 10 row only -- Cost = 2
+* Không phải Full ble Scan là quét hết dữ liệu. Vì nó hoạt động sẽ nhảy lên block đầu tiền và tìm dữ liệu và số lượng cụ thể.
+
+### Chi tiết về cơ chế CACHE - một khía cạnh của nguyên lý 3 + 2
+
+* &#x20;VD1: Select \* from users; --> Hệ thống cache toàn bộ các block của bảng users
+* VD2: Select \* from users order by downvotes; -> Hệ thống phải lấy tất cả các block dữ liệu của bảng user -> Sử dụng giải thuật sort .. -> Không phải block dữ liệu trong Table nên là không lưu được
+
+\-> Select /\*+ RESULT\_CACHE \*/ \* from users order by downvotes; Cache query đầu tiên những query tiếp theo sẽ nhanh hơn vì dùng cache trên. Lưu ý: Vì chỉ cần thay đổi dữ liệu sẽ phải lưu cache lại -> nên dùng dữ liệu tĩnh - dữ liệu không thay đổi.
+
+\-> Cache không giữ mãi trong database dựa trên giải thuật ưu tiền sử dụng nhiều.
+
+
+
+
+
