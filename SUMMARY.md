@@ -45,6 +45,7 @@
 
 ## Database
 
+* [Notes](database/notes.md)
 * [Index](database/index.md)
 * [Improve Performance](database/improve-performance.md)
 * [SQL](database/sql/README.md)
