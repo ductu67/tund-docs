@@ -1,7 +1,7 @@
 # Table of contents
 
 * [README](README.md)
-* [Design Pattern](design-pattern.md)
+* [Design Patterns](design-patterns.md)
 * [Web Server](web-server/README.md)
   * [Components](web-server/components.md)
   * [Server](web-server/server.md)
