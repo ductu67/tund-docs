@@ -19,20 +19,20 @@ Phân loại Design Patterns:
 
 
 
-    <figure><img src=".gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
 *   #### &#x20;Structural Pattern (Nhóm cấu trúc): Cung cấp giải pháp cho cấu trúc của các lớp hoặc đối tượng. <a href="#id-2-structural-pattern-nhom-cau-truc-8" id="id-2-structural-pattern-nhom-cau-truc-8"></a>
 
 
 
-    <figure><img src=".gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
 *   #### Behavioral Pattern (Nhóm hành vi): Cung cấp giải pháp cho tương tác giữa các đối tượng, làm cho code có khả năng mở rộng và dễ bảo trì. <a href="#id-3-behavioral-pattern-nhom-hanh-vi-9" id="id-3-behavioral-pattern-nhom-hanh-vi-9"></a>
 
 
 
-    <figure><img src=".gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
 
 
 
 Tổng quan về Design Pattern:
 
-<figure><img src=".gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
