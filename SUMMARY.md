@@ -3,6 +3,7 @@
 * [README](README.md)
 * [Design Patterns](design-patterns/README.md)
   * [Strategy pattern](design-patterns/strategy-pattern.md)
+  * [Observer pattern](design-patterns/observer-pattern.md)
 * [Web Server](web-server/README.md)
   * [Components](web-server/components.md)
   * [Server](web-server/server.md)
